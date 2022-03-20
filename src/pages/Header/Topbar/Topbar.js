@@ -2,7 +2,7 @@ import React from "react";
 
 function Topbar() {
     return (
-        <div>
+        <>
             <section className="topbar">
                 <div className="max-width">
                     <marquee>
@@ -11,7 +11,7 @@ function Topbar() {
                     </marquee>
                 </div>
             </section>
-        </div>
+        </>
     );
 }
 

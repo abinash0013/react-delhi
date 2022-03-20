@@ -3,7 +3,7 @@ import spinLottery from "./../../../Images/spinLottery.png";
 
 function Banner() {
     return (
-        <div>
+        <>
             {/* <!-- banner section start--> */}
             <section className="banner">
                 <div className="max-width">
@@ -51,7 +51,7 @@ function Banner() {
                 </div>
             </section>
             {/* <!-- banner section finished--> */}
-        </div>
+        </>
     );
 }
 

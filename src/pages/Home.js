@@ -3,7 +3,7 @@ import "./../style.css";
 import Topbar from "./Header/Topbar/Topbar";
 import Navbar from "./Header/Navbar/Navbar";
 import Banner from "./Header/Banner/Banner";
-// import Result from "./Result/Result";
+import Result from "./Result/Result";
 
 function Home() {
     return (
@@ -11,7 +11,7 @@ function Home() {
             <Topbar />
             <Navbar />
             <Banner />
-            {/* <Result /> */}
+            <Result />
         </div>
     );
 }

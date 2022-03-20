@@ -1,26 +1,27 @@
-const ResultCard = (resultDataa) => {
+const ResultCard = ({ props }) => {
+    console.log(props);
     return (
         <>
-            <section class="today-result">
-                <div class="max-width">
-                    <div class="title">
+            <section className="today-result">
+                <div className="max-width">
+                    <div className="title">
                         <h1>Today Result</h1>
                     </div>
-                    {resultDataa.map((currentElement) => {
-                        const { id, time, number } = currentElement;
-                        return (
-                            <div class="box-div" key={id}>
-                                <div class="box">
-                                    <div class="time">
+                    <div className="box-div">
+                        {props.map((currentElement) => {
+                            const { id, time, number } = currentElement;
+                            return (
+                                <div className="box" key={id}>
+                                    <div className="time">
                                         <p>{time}</p>
                                     </div>
-                                    <div class="number">
+                                    <div className="number">
                                         <h1>{number}</h1>
                                     </div>
                                 </div>
-                            </div>
-                        );
-                    })}
+                            );
+                        })}
+                    </div>
                 </div>
             </section>
         </>

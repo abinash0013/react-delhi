@@ -1,12 +1,21 @@
 import React, { useState } from "react";
-import ResultApi from "./api/resultApi";
+import ResultApiData from "./api/resultApi";
 import ResultCard from "./ResultCard";
 
+// const uniqueList = [
+//     ...new Set(
+//         ResultApi.map((curElem) => {
+//             return curElem.category;
+//         })
+//     ),
+//     "All",
+// ];
+
 const Result = () => {
-    const [resultData, setResultDate] = useState(ResultApi);
+    const [resultData, setResultDate] = useState(ResultApiData);
     return (
         <>
-            <ResultCard resultDataa={resultData} />
+            <ResultCard props={resultData} />
         </>
     );
 };

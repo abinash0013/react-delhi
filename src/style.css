@@ -73,7 +73,6 @@ html {
 
 /* banner style start */
 .banner {
-    /* background: url(/public/banner_one.jpg) center/cover no-repeat; */
     background: url("./Images/banner_one.jpg") center/cover no-repeat;
 
     position: relative;

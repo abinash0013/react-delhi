@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
     return (
-        <div>
+        <>
             {/* navbar section start */}
             <nav className="navbar">
                 <div className="max-width">
@@ -19,7 +19,7 @@ function Navbar() {
                 </div>
             </nav>
             // navbar section finished
-        </div>
+        </>
     );
 }
 
