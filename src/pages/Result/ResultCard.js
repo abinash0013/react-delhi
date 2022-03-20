@@ -1,5 +1,5 @@
 const ResultCard = ({ props }) => {
-    console.log(props);
+    // console.log(props);
     return (
         <>
             <section className="today-result">
