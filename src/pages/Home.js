@@ -5,6 +5,7 @@ import Navbar from "./Header/Navbar/Navbar";
 import Banner from "./Header/Banner/Banner";
 import Result from "./Result/Result";
 import PreviousResult from "./PreviousResult/PreviousResult";
+import Desclaimer from "./Desclaimer/Desclaimer";
 
 function Home() {
     return (
@@ -14,6 +15,7 @@ function Home() {
             <Banner />
             <Result />
             <PreviousResult />
+            <Desclaimer />
         </div>
     );
 }

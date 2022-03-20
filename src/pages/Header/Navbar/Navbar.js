@@ -18,7 +18,7 @@ function Navbar() {
                     </div>
                 </div>
             </nav>
-            // navbar section finished
+            {/* // navbar section finished */}
         </>
     );
 }
