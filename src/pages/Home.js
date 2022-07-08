@@ -6,6 +6,7 @@ import Banner from "./Header/Banner/Banner";
 import Result from "./Result/Result";
 import PreviousResult from "./PreviousResult/PreviousResult";
 import Desclaimer from "./Desclaimer/Desclaimer";
+import Footer from "./Footer/Footer";
 
 function Home() {
     return (
@@ -16,6 +17,7 @@ function Home() {
             <Result />
             <PreviousResult />
             <Desclaimer />
+            <Footer />
         </div>
     );
 }

@@ -372,7 +372,8 @@ footer .copyright-text {
         height: 350px;
     }
     .today-result .box {
-        width: calc(20% - 1px);
+        /* width: calc(20% - 1px); */
+        width: calc(18% - 17px);
         padding: 10px 0;
         height: auto;
     }
@@ -383,6 +384,13 @@ footer .copyright-text {
     }
     .previous-result .years-text p {
         padding: 0 5px;
+    }
+}
+@media (max-width: 675px) {
+    .today-result .box {
+        width: calc(14% - 0px);
+        padding: 10px 0;
+        height: auto;
     }
 }
 @media (max-width: 425px) {
@@ -405,7 +413,7 @@ footer .copyright-text {
         text-shadow: 5px 3px rgb(0 0 0 / 40%);
     }
     .today-result .box {
-        width: calc(40%);
+        width: calc(24%);
         padding: 10px 0;
         height: auto;
     }
@@ -418,7 +426,13 @@ footer .copyright-text {
         padding: 0 5px;
     }
 }
-
+@media (max-width: 565px) {
+    .today-result .box {
+        width: calc(18% - 0px);
+        padding: 10px 0;
+        height: auto;
+    }
+}
 @media (max-width: 375px) {
     .navbar {
         padding: 15px 0;
