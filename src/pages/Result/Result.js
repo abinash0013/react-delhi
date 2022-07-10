@@ -3,7 +3,8 @@ import ResultApiData from "./api/resultApi";
 import ResultCard from "./ResultCard";
 
 const Result = () => {
-    const [resultData, setResultDate] = useState(ResultApiData);
+//     const [resultData, setResultDate] = useState(ResultApiData);
+    const [resultData] = useState(ResultApiData);
     return (
         <>
             <ResultCard props={resultData} />
