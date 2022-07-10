@@ -11,7 +11,7 @@ function Banner() {
                         <div className="column left">
                             <img
                                 src={spinLottery}
-                                alt="spin-lottery-image"
+                                alt="spin-lottery"
                                 className="loader"
                             />
                             <div className="center-fig">
